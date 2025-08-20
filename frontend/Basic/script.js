@@ -1,4 +1,4 @@
-const HOST = "10.27.220.107";
+const HOST = "localhost";
 const PORT = 8888;
 const BASE_URL = `http://${HOST}:${PORT}`;
 
@@ -241,3 +241,4 @@ socket.on('list_dir_result', (res) => {
 });
 
 requestPath('/');
+

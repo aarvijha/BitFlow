@@ -1,10 +1,3 @@
-/* script.js — separated file
-   Notes:
-   - No pathWidget collapsing/toggling code (removed as requested)
-   - Ensures file list never goes underneath pathWidget by relying on CSS var --pathbar-height
-   - Mobile sidebar only appears on small screens (CSS hides it on desktop)
-*/
-
 "use strict";
 
 const HOST = "localhost";
@@ -698,3 +691,4 @@ window._fileExplorer = {
   downloadFilesInDir,
   currentFiles,
 };
+

@@ -2,6 +2,7 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
+const { exec } = require("child_process");
 
 const PORT = 9999;
 const BASE_DIR = __dirname;
@@ -37,5 +38,14 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  const url = `http://localhost:${PORT}`;
+  console.log(`Server running at ${url}`);
+  const start =
+    process.platform === "darwin"
+      ? "open"
+      : process.platform === "win32"
+      ? "start"
+      : "xdg-open";
+
+  exec(`${start} ${url}`);
 });

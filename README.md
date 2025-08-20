@@ -41,6 +41,7 @@ Perfect for tech-savvy humans who hate clunky file servers. Or anyone who just w
    It automatically serves files from your chosen `MEDIA_ROOT` over the network.
 
 ---
+<img width="785" height="541" alt="image" src="https://github.com/user-attachments/assets/8ad9e05f-8e7c-412b-84b1-5bc5a3da0826" />
 
 ### Server-side Magic ✨
 
@@ -141,3 +142,4 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
 ---
 
 Made with ❤️, Python 🐍, Node.js ⚡, and a bit of hacker magic ✨
+

@@ -1,6 +1,6 @@
 # BitFlow 🚀
 
-**Stream or download files from any directory you love**, in secure, bite-sized chunks. Share access without giving away the keys to your entire drive. Basically, it’s like file-sharing on steroids—but totally under your control. 💪
+**Stream or download files from any directory you love**, in secure, bite-sized chunks. Share access without giving away the keys to your entire drive. Basically, it’s like file-sharing on steroids, but totally under your control. 💪
 
 ---
 
@@ -127,7 +127,7 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
    * Downloading files in secure chunks
    * Searching and navigating folders
 3. Optional Node.js server hosts a fully interactive frontend on port 9999.
-4. Minimal HTML version works without Node.js—perfect for quick launches.
+4. Minimal HTML version works without Node.js - perfect for quick launches.
 
 ---
 
@@ -141,6 +141,3 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
 ---
 
 Made with ❤️, Python 🐍, Node.js ⚡, and a bit of hacker magic ✨
-
-
-

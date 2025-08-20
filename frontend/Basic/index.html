@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
   <header class="toolbar" role="banner" aria-label="Toolbar">
@@ -15,7 +17,8 @@
       <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
     </button>
 
-    <button id="forwardBtn" class="toolbarBtn hide-when-sidebar-open" disabled title="Go forward" aria-label="Go forward">
+    <button id="forwardBtn" class="toolbarBtn hide-when-sidebar-open" disabled title="Go forward"
+      aria-label="Go forward">
       <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
     </button>
 
@@ -28,7 +31,8 @@
       <option value="size_asc">Size ASC</option>
     </select>
 
-    <input id="searchInput" type="search" placeholder="Search files / folders" class="hide-when-sidebar-open" aria-label="Search files" />
+    <input id="searchInput" type="search" placeholder="Search files / folders" class="hide-when-sidebar-open"
+      aria-label="Search files" />
 
     <button id="themeToggle" class="desktop-only" aria-label="Toggle theme" title="Toggle theme">
       <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
@@ -51,14 +55,16 @@
       </div>
     </div>
     <div class="pathRight">
-      <button id="openFolderInfo" class="iconBtn" aria-label="Folder details" title="Folder details"><i class="fa-solid fa-info-circle" aria-hidden="true"></i></button>
+      <button id="openFolderInfo" class="iconBtn" aria-label="Folder details" title="Folder details"><i
+          class="fa-solid fa-info-circle" aria-hidden="true"></i></button>
     </div>
   </div>
 
   <aside id="mobileSidebar" class="mobileSidebar" role="dialog" aria-label="Options" aria-hidden="true">
     <div class="mobileSidebarHeader" role="toolbar" aria-label="Sidebar actions">
       <strong>Actions</strong>
-      <button id="sidebarCloseBtn" class="iconBtn" aria-label="Close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <button id="sidebarCloseBtn" class="iconBtn" aria-label="Close"><i class="fa-solid fa-xmark"
+          aria-hidden="true"></i></button>
     </div>
 
     <div class="mobileSidebarContent">
@@ -89,4 +95,5 @@
   <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
   <script src="script.js" defer></script>
 </body>
+
 </html>

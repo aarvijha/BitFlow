@@ -20,7 +20,7 @@ Perfect for tech-savvy humans who hate clunky file servers. Or anyone who just w
 ### Prerequisites
 - **Python 3.x** (for backend server)
 - **Node.js** (if you want to use the hosted frontend)
-- Basic knowledge of opening a terminal and running scripts (you got this!)
+- Basic knowledge of clicking files (you got this!)
 
 ---
 
@@ -31,7 +31,7 @@ Perfect for tech-savvy humans who hate clunky file servers. Or anyone who just w
    MEDIA_ROOT = "/path/to/your/favorite/files"
 *Pro tip:* Comment the old line, add the new one, make it clean.
 
-2. Run the backend server:
+2. Run the backend server (by clicking on this file):
 
    ```bash
    run_backend_server.bat
@@ -72,7 +72,7 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
 
 ### Full Featured (Fancy) Frontend
 
-* Run it with Node.js:
+* Run it (by clicking on this file), but you must have Node.js:
 
   ```bash
   run_frontend.bat
@@ -80,7 +80,7 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
 
 * Hosts your file explorer at **localhost:9999**.
 
-* Don’t have Node.js? No worries. Just open:
+* *Don’t have Node.js? No worries.* Just open:
 
   ```
   frontend/basic/index.html
@@ -141,3 +141,4 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
 ---
 
 Made with ❤️, Python 🐍, Node.js ⚡, and a bit of hacker magic ✨
+

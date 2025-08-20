@@ -3,8 +3,7 @@ import os
 
 # === FILE & MEDIA SETTINGS ===
 # Default media directory is the current user's home directory
-# MEDIA_ROOT = os.environ.get("MEDIA_ROOT", os.path.expanduser("~"))
-MEDIA_ROOT = "D:/Films & TVs"
+MEDIA_ROOT = os.environ.get("MEDIA_ROOT", os.path.expanduser("~"))
 
 # === SERVER SETTINGS ===
 # Port to run the Flask-SocketIO server on
@@ -19,3 +18,4 @@ DEBUG = os.environ.get("DEBUG", "true").lower() == "true"
 
 # Maximum file size for uploads (in bytes) — if needed later
 MAX_CONTENT_LENGTH = int(os.environ.get("MAX_CONTENT_LENGTH", 1024 * 1024 * 1024))  # 1 GB
+

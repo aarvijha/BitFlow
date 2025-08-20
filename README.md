@@ -81,6 +81,8 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
 
 * Hosts your file explorer at **localhost:9999**.
 
+<img width="707" height="455" alt="image" src="https://github.com/user-attachments/assets/44604b58-39cb-4b95-bafe-5629c955dff4" />
+
 * **Don’t have Node.js? No worries.** Just open (by clicking on below file):
 
   ```
@@ -142,4 +144,5 @@ BitFlow comes with a slick **file manager frontend** to make browsing your files
 ---
 
 Made with ❤️, Python 🐍, Node.js ⚡, and a bit of hacker magic ✨
+
 
